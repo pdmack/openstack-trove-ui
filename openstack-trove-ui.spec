@@ -40,6 +40,9 @@ OpenStack Dashboard plugin for Trove project
 rm -rf {test-,}requirements.txt tools/{pip,test}-requires
 rm -rf %{pypi_name}.egg-info
 
+# clean up
+find -size 0 -delete
+
 %build
 %{__python2} setup.py build
 
