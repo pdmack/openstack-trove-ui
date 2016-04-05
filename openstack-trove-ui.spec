@@ -41,7 +41,7 @@ rm -rf {test-,}requirements.txt tools/{pip,test}-requires
 rm -rf %{pypi_name}.egg-info
 
 # clean up
-find -size 0 -not -name '__init__.py'
+find -size 0 -not -name '__init__.py' -delete
 
 %build
 %{__python2} setup.py build
