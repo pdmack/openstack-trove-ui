@@ -78,16 +78,16 @@ PYTHONPATH=/usr/share/openstack-dashboard/ ./run_tests.sh -N -P
 %license LICENSE
 %{python2_sitelib}/%{mod_name}
 %{python2_sitelib}/*.egg-info
-%{_datadir}/openstack-dashboard/openstack_dashboard/local/enabled/_1710_database_panel_group.py
-%{_datadir}/openstack-dashboard/openstack_dashboard/local/enabled/_1720_project_databases_panel.py
-%{_datadir}/openstack-dashboard/openstack_dashboard/local/enabled/_1730_project_database_backups_panel.py
-%{_datadir}/openstack-dashboard/openstack_dashboard/local/enabled/_1731_project_database_backups_panel.py
-%{_datadir}/openstack-dashboard/openstack_dashboard/local/enabled/_1740_project_database_clusters_panel.py
-%{_sysconfdir}/openstack-dashboard/enabled/_1710_database_panel_group.py
-%{_sysconfdir}/openstack-dashboard/enabled/_1720_project_databases_panel.py
-%{_sysconfdir}/openstack-dashboard/enabled/_1730_project_database_backups_panel.py
-%{_sysconfdir}/openstack-dashboard/enabled/_1731_project_database_backups_panel.py
-%{_sysconfdir}/openstack-dashboard/enabled/_1740_project_database_clusters_panel.py
+%{_datadir}/openstack-dashboard/openstack_dashboard/local/enabled/_1710_database_panel_group.py*
+%{_datadir}/openstack-dashboard/openstack_dashboard/local/enabled/_1720_project_databases_panel.py*
+%{_datadir}/openstack-dashboard/openstack_dashboard/local/enabled/_1730_project_database_backups_panel.py*
+%{_datadir}/openstack-dashboard/openstack_dashboard/local/enabled/_1731_project_database_backups_panel.py*
+%{_datadir}/openstack-dashboard/openstack_dashboard/local/enabled/_1740_project_database_clusters_panel.py*
+%{_sysconfdir}/openstack-dashboard/enabled/_1710_database_panel_group.py*
+%{_sysconfdir}/openstack-dashboard/enabled/_1720_project_databases_panel.py*
+%{_sysconfdir}/openstack-dashboard/enabled/_1730_project_database_backups_panel.py*
+%{_sysconfdir}/openstack-dashboard/enabled/_1731_project_database_backups_panel.py*
+%{_sysconfdir}/openstack-dashboard/enabled/_1740_project_database_clusters_panel.py*
 
 %changelog
 
